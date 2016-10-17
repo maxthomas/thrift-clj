@@ -1,6 +1,6 @@
-(defproject io.maxthomas/thrift-clj "0.3.2"
+(defproject io.maxthomas/thrift-clj "0.3.3"
   :description "Clojure and Thrift working hand in hand."
-  :url "https://github.com/xsc/thrift-clj"
+  :url "https://github.com/maxthomas/thrift-clj"
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"
             :year 2013
