@@ -1,4 +1,4 @@
-(defproject io.maxthomas/thrift-clj "0.3.1"
+(defproject io.maxthomas/thrift-clj "0.3.2-SNAPSHOT"
   :description "Clojure and Thrift working hand in hand."
   :url "https://github.com/xsc/thrift-clj"
   :license {:name "MIT License"
@@ -13,7 +13,10 @@
                  [javax.servlet/servlet-api "2.5"]
                  [potemkin "0.4.1"]]
   :repositories  {"sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"}
+
   :exclusions [org.clojure/clojure]
+
+  :signing {:gpg-key "max@maxthomas.io"}
 
   :profiles {:dev {:dependencies [[ch.qos.logback/logback-classic "1.1.3"]
                                   [midje "1.7.0"]]
